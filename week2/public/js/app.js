@@ -13,6 +13,7 @@
         init: function() {
             productPage.show();
             lazyLoad.start();
+            sw.start();
 
         }
      };
@@ -155,6 +156,19 @@
         }
 
     };
+
+    var sw = {
+        start: function() {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/js/sw.js', { scope: '/js/' }) // scope is optioneel en verteld de service worker over welke file hij
+                .then(function(registration) {
+                    console.log('serviceWorker registation successful with scope');
+                }).catch(function(err){
+                    console.log('serviceWorker registation failed', err); // catch runt als the promise is geweigerd. 
+                });
+            }
+        }
+    }
 
     launcher.init();              
  }());
