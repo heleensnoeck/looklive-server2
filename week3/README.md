@@ -138,32 +138,19 @@ Gulp wins because it is less code to write and it is faster dan grunt.
 # Assignment 1: Optimise HTTP request
 *With gulp Javascript minified
 
-before: 
-![alt tag](../screenshots/1_original_842ms.png)
-
-After: 
-![alt tag](../screenshots/1_original_842ms.png)
+before & after: 
+![alt tag](https://github.com/heleensnoeck/looklive-server2/blob/gulp/heleen/week3/public/screenshots/js.png)
 
 *With gulp Css minified
 
-before: 
-![alt tag](../screenshots/1_original_842ms.png)
-
-After: 
-![alt tag](../screenshots/1_original_842ms.png)
+before & after: 
+![alt tag](https://github.com/heleensnoeck/looklive-server2/blob/gulp/heleen/week3/public/screenshots/css.png)
 
 # Assignment 2: Optimise images
-before:
-![alt tag](../screenshots/1_original_842ms.png)
-
-After:
+before & after:
 ![alt tag](../screenshots/1_original_842ms.png)
 
 # Assignment 3: Optimise web font
 *I download the Ralleway font with fontsquirrel, without glyphs
 
-before:
-![alt tag](../screenshots/1_original_842ms.png)
 
-After:
-![alt tag](../screenshots/1_original_842ms.png)
