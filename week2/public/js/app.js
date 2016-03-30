@@ -160,7 +160,8 @@
     var sw = {
         start: function() {
             if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/js/sw.js', { scope: '/js/' }) // scope is optioneel en verteld de service worker over welke file hij
+                navigator.serviceWorker.register('sw.js', { scope: './' }) // scope is optioneel en verteld de service worker over welke file hij
+                // navigator.serviceWorker.register('/js/sw.js', { scope: '/js/' }) // scope is optioneel en verteld de service worker over welke file hij
                 .then(function(registration) {
                     console.log('serviceWorker registation successful with scope');
                 }).catch(function(err){
