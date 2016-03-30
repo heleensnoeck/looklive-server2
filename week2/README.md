@@ -46,13 +46,13 @@ The API returns JSON (for now).
 
 # service Worker Implemented
 Results without Service Worker:
-![alt tag](../screenshots/zonder_ww.png)
+![alt tag](https://github.com/heleensnoeck/looklive-server2/blob/serviceWorker/heleen/week2/public/screenshots/zonder_ww.png)
 
 Results with Service Worker first time:
-![alt tag](../screenshots/met_ww_1x.png)
+![alt tag](https://github.com/heleensnoeck/looklive-server2/blob/serviceWorker/heleen/week2/public/screenshots/me_ww_1x.png)
 
 Results with Service Worker second time:
-![alt tag](../screenshots/met_ww_2x.png)
+![alt tag](https://github.com/heleensnoeck/looklive-server2/blob/serviceWorker/heleen/week2/public/screenshots/met_ww_2x%20.png)
 
 Conclusie
 Maakt in dit geval geen verschil alleen voor offline gebruik erg handig blijft met en zonder web worker op 3.8 seconde hangen. 
