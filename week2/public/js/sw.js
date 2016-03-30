@@ -8,9 +8,9 @@ console.log('im alive');
 var urlsToCache = [
 	'/',
 	'./styles/style.css',
-	'./js/app.js'
+	'./js/app.js',
 	'./images/logo.png',
-    './images/header_1024.jpg'
+        './images/header_1024.jpg'
 ];
 
 
