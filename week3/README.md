@@ -94,7 +94,7 @@ module.exports = function(grunt) {
 }
 ```
 
-### Example Grunt Task Configuration
+### Example Gulp Task Configuration
 ```
 // Load the plugins
 var gulp = require('gulp');
