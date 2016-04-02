@@ -147,8 +147,11 @@ before & after:
 ![alt tag](https://github.com/heleensnoeck/looklive-server2/blob/gulp/heleen/week3/public/screenshots/css.png)
 
 # Assignment 2: Optimise images
-before & after:
-![alt tag](../screenshots/1_original_842ms.png)
+before:
+![alt tag](https://github.com/heleensnoeck/looklive-server2/blob/gulp/heleen/week3/public/screenshots/image.png)
+
+after:
+![alt tag](https://github.com/heleensnoeck/looklive-server2/blob/gulp/heleen/week3/public/screenshots/image:bin.png)
 
 # Assignment 3: Optimise web font
 *I download the Ralleway font with fontsquirrel, without glyphs
