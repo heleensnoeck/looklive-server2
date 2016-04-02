@@ -1,15 +1,21 @@
 <div class="appearance" data-id="{{ item.id }}">
-    <div class="appearance__left">
-        <img src="{{ item.image.url }}">
+
+
+    <section class="image__section">
+        <figure>
+            <img src="{{ item.image.url }}">
+        </figure>
         {{#each item.product_occurrences}}
             <div class="product-indicator" style="top: {{position.y}}%;   /*deze is shit*/left: {{position.x}}%;" data-uuid="{{product.id}}"></div>
         {{/each}}
-    </div>
-    <div class="appearance__right">
+    </section>
+
+
+    <section class="product__section">
         <h2><img class="avatar" src="{{ item.subject.avatar.url }}"> {{ item.subject.name }}</h2>
         <h1>{{ item.title }}</h1>
 
-        <div class="appearance__products">
+        <section class="appearance__products">
             <h1>Products</h1>
             <div class="appearance__products--inner">
                 {{#each products}}
@@ -39,6 +45,6 @@
                     </div>
                 {{/each}}
             </div>
-        </div>
-    </div>
+        </section>
+    </section>
 </div>
