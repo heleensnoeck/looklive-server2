@@ -86,4 +86,5 @@ Geldige SSL-certificaat
 * http://istoireservices.be/wat-is-het-verschil-tussen-een-native-app-en-een-web-app/
 * http://www.emerce.nl/achtergrond/progressive-web-apps-de-toekomst-van-mobiele-apps
 
-# Digital ocean
+# Digital ocean (works only when i set in on)
+http://server.spotitshopit.com:3000/
